@@ -68,7 +68,8 @@ object ProjectPlugin extends AutoPlugin {
       %%("doobie-core"),
       %%("doobie-h2"),
       "org.http4s" %% "http4s-blaze-client" % "0.19.0-SNAPSHOT",
-      "org.http4s" %% "http4s-circe" % "0.19.0-SNAPSHOT"
+      "org.http4s" %% "http4s-circe" % "0.19.0-SNAPSHOT",
+      "io.monix" %% "monix" % "3.0.0-RC1"
     ) ++ commonCrossDependencies
   }
 
